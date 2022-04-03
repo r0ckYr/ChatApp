@@ -1,14 +1,14 @@
 # ChatApp
 A simple multi client chat app in python
 
-##Installation
+## Installation
 ```
 git clone https://github.com/r0ckYr/ChatApp.git
 cd ChatApp
 pip3 install -r requirements.txt
 
 ```
-##How to use
+## How to use
 1. Open client.py in any text editor
 2. Add your ip to the server variable
  ![Screenshot from 2022-04-03 21-06-53](https://user-images.githubusercontent.com/73944333/161435792-48ad74ba-a4ea-4b5d-87c8-0e7cc3b3bb09.png)
@@ -21,6 +21,6 @@ pip3 install -r requirements.txt
   ![Screenshot from 2022-04-03 21-11-13](https://user-images.githubusercontent.com/73944333/161435982-82c99da3-4207-4c3b-8739-ea21c45564da.png)
 
 
-##TODO
+## TODO
 
 There is problem in connection when a client disconnets and tries to connect again, the client has to try multiple times to connect properly. Should add feature in client side app to retry by itself OR use threading the traditional way, using Queue, to handle connections properly.
