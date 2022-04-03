@@ -8,7 +8,7 @@ import psutil
 
 
 PORT = 7777
-SERVER = '3.108.188.47'
+SERVER = 'YOUR_SERVER_IP'
 EXIT_MESSAGE = 'quitX'
 
 GREEN = '\033[92m'
